@@ -1,0 +1,11 @@
+streamlit>=1.32.0
+numpy>=1.26.0
+pandas>=2.0.0
+
+# Maps module — 100% free, no API key
+streamlit-folium>=0.18.0
+folium>=0.17.0
+geopy>=2.4.1
+osmnx>=1.9.4
+networkx>=3.3
+requests>=2.31.0
