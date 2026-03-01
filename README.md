@@ -4,6 +4,13 @@ A high-end, dark-themed, glassmorphic **Data Structures & Algorithms visualizer*
 Watch Dijkstra's pathfinding and sorting algorithms come to life with real-time animated step-by-step breakdowns.
 
 ---
+## 📸 App Preview
+
+| Pathfinding Module | Sorting Module | Real-World Maps |
+| :---: | :---: | :---: |
+| ![Pathfinding](screenshots/Screenshot(1).png) | ![Sorting](screenshots/Screenshot(2).png) | ![Maps](screenshots/Screenshot(3).png) |
+
+---
 
 ## 🚀 Setup & Installation
 
@@ -14,7 +21,7 @@ Watch Dijkstra's pathfinding and sorting algorithms come to life with real-time 
 ### 1. Clone / download the project
 ```bash
 # If using git
-git clone <your-repo-url>
+git clone https://github.com/amandeepintl/Traceify
 cd Traceify
 ```
 
@@ -119,3 +126,4 @@ Traceify/
 
 ## 📄 License
 MIT — free to use, modify, and distribute.
+
