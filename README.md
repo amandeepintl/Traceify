@@ -118,7 +118,7 @@ Traceify/
 | Speed slider | 10–500 ms | 60 ms | Delay between animation frames |
 | Array size | 8–80 | 42 | Number of bars to sort |
 | Seed | 0–9999 | 7 | Reproducible random array |
-
+| Map Source | OSRM / OSM | N/A | Fetching live road network data |
 ---
 
 ## 🛠️ Tech Stack
@@ -128,10 +128,12 @@ Traceify/
 | `streamlit` | ≥ 1.32 | UI framework & reactivity |
 | `numpy` | ≥ 1.26 | Grid state arrays |
 | `pandas` | ≥ 2.0 | Big-O reference tables |
-
+| `osmnx` | ≥ 1.9 | Street network retrieval & Graph logic |
+| `networkx` | ≥ 3.3 | Mathematical graph structures |
 ---
 
 ## 📄 License
 MIT — free to use, modify, and distribute.
+
 
 
