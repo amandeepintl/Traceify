@@ -43,11 +43,12 @@ The app will open automatically at **http://localhost:8501**
 
 ```
 Traceify/
-├── app.py            # Main Streamlit application (UI + animations)
-├── pathfinding.py    # Dijkstra's algorithm engine (15×30 grid)
+├── app.py            # Main Streamlit application (UI & Navigation)
+├── pathfinding.py    # Dijkstra's algorithm engine (15×30 grid logic)
 ├── sorting.py        # Bubble Sort & Quick Sort step generators
+├── maps.py           # Real-world routing (OSMnx + OSRM Integration)
 ├── requirements.txt  # Python dependencies
-└── README.md         # This file
+└── README.md         # Documentation
 ```
 
 ---
@@ -102,6 +103,12 @@ Traceify/
 - **Not stable**: swaps can change relative order of equal elements.
 - **In-place** (O(log n) implicit stack space for recursion).
 
+#### Traceify Maps (Real-World)
+- **100% Free / No API Key** Uses Nominatim for geocoding and OSRM for public routing.
+- **Real-World Graph Theory** Downloads road networks via OSMnx to run Dijkstra on real intersections.
+- **Comparison Engine: Compare** "Fastest Route" (API) vs "Shortest Path" (Raw Dijkstra) side-by-side.
+- **Interactive Mapping** Folium-based maps with custom markers and glowing path polylines.
+
 ---
 
 ## ⚙️ Configuration
@@ -126,4 +133,5 @@ Traceify/
 
 ## 📄 License
 MIT — free to use, modify, and distribute.
+
 
